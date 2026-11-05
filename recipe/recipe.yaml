@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "26.10.0"
+  version: "26.11.0"
 
 package:
   name: ansible-navigator
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/ansible-navigator/ansible_navigator-${{ version }}.tar.gz
-  sha256: ee26fab3923a56241c5a54c2350fa7a0f323c04a7480dca240cb4f705f1475cd
+  sha256: 88143d74f2761f2eccf21005eb25463e1b8dce347b5a22143e967d2a01a2885f
 
 build:
   noarch: python
